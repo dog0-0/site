@@ -1,0 +1,57 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    letter-spacing: 1px; 
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+
+}
+#A {
+    background-color: #252525;
+    text-align: center;
+    justify-content: center;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px 4px #272727;
+    transition: 0.2s;
+}
+
+.exercicios {
+    display: flex;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 2px;
+    box-shadow: 0px 0px 3px 3px #313131;
+    transition: background-color 0.2s, color 0.2s; 
+    cursor: pointer; 
+}
+
+
+.verde {
+    background-color: rgb(0, 253, 0);
+    color: black; 
+}
+
+.exercicio {
+    flex: 2;
+    text-align: left;
+    padding-left: 10px;  
+}
+
+.numero {
+    flex: 1;
+    text-align: center;
+}
+
+.peso {
+    flex: 2;
+    text-align: right;
+    padding-right: 10px;
+}
